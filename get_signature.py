@@ -17,7 +17,7 @@ def get_matches_from_url_page(url,pattern,headers):
 if __name__ == "__main__":
 
     # signature 签名解密接口 nonce 为解密需要传入的参数 用户user_id 或者 视频aweme_id
-    api = 'http://www.spiders.pub/FlaskDY/sign/{nonce}'
+    api = 'http://api.spiders.pub/FlaskDY/sign/{nonce}'
 
     headers = {
         'user-agent': 'Mozilla/5.0 (iPhone 84; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 MQQBrowser/7.8.0 Mobile/14G60 Safari/8536.25 MttCustomUA/2 QBWebViewType/1 WKType/1',
